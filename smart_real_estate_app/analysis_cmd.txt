@@ -1,0 +1,188 @@
+Analyzing smart_real_estate_app...                              
+
+  error - The name 'shareProperty' is already defined - lib\l10n\app_localizations.dart:315:14 - duplicate_definition
+   info - Parameter 'key' could be a super parameter - lib\main.dart:18:9 - use_super_parameters
+   info - The private field _favoriteProperties could be 'final' - lib\providers\property_provider.dart:9:18 - prefer_final_fields
+warning - Unused import: '../models/user_model.dart' - lib\services\api_service.dart:3:8 - unused_import
+  error - The named parameter 'userName' isn't defined - lib\utils\routes.dart:80:13 - undefined_named_parameter
+  error - The named parameter 'userAvatar' isn't defined - lib\utils\routes.dart:81:13 - undefined_named_parameter
+  error - The named parameter 'propertyTitle' isn't defined - lib\utils\routes.dart:82:13 - undefined_named_parameter
+   info - Parameter 'key' could be a super parameter - lib\views\admin\admin_dashboard_view.dart:7:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\views\admin\admin_properties_view.dart:10:9 - use_super_parameters
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\views\admin\admin_properties_view.dart:155:25 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\views\admin\admin_properties_view.dart:213:25 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\views\admin\admin_properties_view.dart:250:55 - curly_braces_in_flow_control_structures
+   info - Unnecessary use of multiple underscores - lib\views\admin\admin_properties_view.dart:532:43 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\views\admin\admin_properties_view.dart:532:47 - unnecessary_underscores
+   info - Parameter 'key' could be a super parameter - lib\views\admin\admin_reports_view.dart:9:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\admin\admin_reports_view.dart:185:37 - deprecated_member_use
+   info - Unnecessary use of 'toList' in a spread - lib\views\admin\admin_reports_view.dart:350:14 - unnecessary_to_list_in_spreads
+   info - Unnecessary use of 'toList' in a spread - lib\views\admin\admin_reports_view.dart:410:18 - unnecessary_to_list_in_spreads
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\admin\admin_reports_view.dart:467:61 - deprecated_member_use
+   info - The imported package 'intl' isn't a dependency of the importing package - lib\views\admin\admin_reviews_view.dart:4:8 - depend_on_referenced_packages
+   info - Parameter 'key' could be a super parameter - lib\views\admin\admin_reviews_view.dart:11:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\admin\admin_reviews_view.dart:172:26 - deprecated_member_use
+  error - The named parameter 'textColor' isn't defined - lib\views\admin\admin_reviews_view.dart:207:15 - undefined_named_parameter
+  error - The class 'EdgeInsets' doesn't have a constant constructor 'bottom' - lib\views\admin\admin_reviews_view.dart:252:32 - const_with_undefined_constructor
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\admin\admin_reviews_view.dart:263:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\admin\admin_reviews_view.dart:288:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\admin\admin_reviews_view.dart:361:24 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\admin\admin_users_view.dart:9:9 - use_super_parameters
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\views\admin\admin_users_view.dart:124:23 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\views\admin\admin_users_view.dart:155:55 - curly_braces_in_flow_control_structures
+warning - Unused import: 'package:go_router/go_router.dart' - lib\views\agency\agency_profile_view.dart:2:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\views\agency\agency_profile_view.dart:16:9 - use_super_parameters
+warning - The value of the local variable 'themeProvider' isn't used - lib\views\agency\agency_profile_view.dart:21:11 - unused_local_variable
+warning - The value of the local variable 'themeProvider' isn't used - lib\views\agency\agency_profile_view.dart:70:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\agency\agency_profile_view.dart:88:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\agency\agency_profile_view.dart:225:51 - deprecated_member_use
+   info - The imported package 'share_plus' isn't a dependency of the importing package - lib\views\ai\ai_assistant_view.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:share_plus/share_plus.dart' - lib\views\ai\ai_assistant_view.dart:4:8 - uri_does_not_exist
+   info - Parameter 'key' could be a super parameter - lib\views\ai\ai_assistant_view.dart:10:9 - use_super_parameters
+  error - Undefined name 'Share' - lib\views\ai\ai_assistant_view.dart:72:5 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\ai\ai_assistant_view.dart:184:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\ai\ai_assistant_view.dart:246:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\ai\ai_assistant_view.dart:375:33 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\ai\ai_assistant_view.dart:422:9 - use_super_parameters
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\views\auth\login_view.dart:5:8 - unnecessary_import
+warning - Unused import: '../../providers/locale_provider.dart' - lib\views\auth\login_view.dart:9:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\login_view.dart:129:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\login_view.dart:180:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\login_view.dart:197:91 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\login_view.dart:217:91 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\login_view.dart:250:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\login_view.dart:365:49 - deprecated_member_use
+warning - Unused import: '../../providers/locale_provider.dart' - lib\views\auth\register_view.dart:8:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\register_view.dart:148:89 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\register_view.dart:163:89 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\register_view.dart:183:89 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\auth\register_view.dart:216:46 - deprecated_member_use
+   info - The imported package 'image_picker' isn't a dependency of the importing package - lib\views\chat\chat_view.dart:5:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:image_picker/image_picker.dart' - lib\views\chat\chat_view.dart:5:8 - uri_does_not_exist
+   info - Parameter 'key' could be a super parameter - lib\views\chat\chat_view.dart:17:9 - use_super_parameters
+  error - Undefined class 'ImagePicker' - lib\views\chat\chat_view.dart:31:9 - undefined_class
+  error - The method 'ImagePicker' isn't defined for the type '_ChatViewState' - lib\views\chat\chat_view.dart:31:31 - undefined_method
+warning - A value for optional parameter 'propertyId' isn't ever given - lib\views\chat\chat_view.dart:74:10 - unused_element_parameter
+  error - Undefined class 'ImageSource' - lib\views\chat\chat_view.dart:137:27 - undefined_class
+  error - Undefined class 'XFile' - lib\views\chat\chat_view.dart:138:11 - undefined_class
+  error - Undefined name 'ImageSource' - lib\views\chat\chat_view.dart:176:26 - undefined_identifier
+  error - Undefined name 'ImageSource' - lib\views\chat\chat_view.dart:180:26 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\chat_view.dart:197:59 - deprecated_member_use
+warning - The value of the local variable 'theme' isn't used - lib\views\chat\chat_view.dart:257:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\chat_view.dart:267:63 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\chat_view.dart:493:58 - deprecated_member_use
+  error - Undefined name 'ImageSource' - lib\views\chat\chat_view.dart:523:94 - undefined_identifier
+   info - Parameter 'key' could be a super parameter - lib\views\chat\conversations_view.dart:11:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\conversations_view.dart:127:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\conversations_view.dart:144:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\conversations_view.dart:240:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\conversations_view.dart:240:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\conversations_view.dart:313:68 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\chat\conversations_view.dart:336:30 - deprecated_member_use
+warning - Unused import: 'package:go_router/go_router.dart' - lib\views\contracts\contract_details_view.dart:2:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\views\contracts\contract_details_view.dart:12:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\contracts\contract_details_view.dart:88:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\contracts\contract_details_view.dart:90:69 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\contracts\contract_details_view.dart:196:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\contracts\contract_details_view.dart:362:51 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\contracts\contracts_view.dart:11:9 - use_super_parameters
+warning - The value of the local variable 'primaryColor' isn't used - lib\views\contracts\contracts_view.dart:50:11 - unused_local_variable
+  error - The getter 'expired' isn't defined for the type 'AppLocalizations' - lib\views\contracts\contracts_view.dart:75:28 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\contracts\contracts_view.dart:260:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\contracts\contracts_view.dart:262:41 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\favorites\favorites_view.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\views\home_view.dart:14:9 - use_super_parameters
+   info - Unnecessary use of multiple underscores - lib\views\home_view.dart:327:49 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\views\home_view.dart:327:53 - unnecessary_underscores
+warning - Unused import: 'package:provider/provider.dart' - lib\views\main_shell.dart:3:8 - unused_import
+warning - Unused import: '../providers/auth_provider.dart' - lib\views\main_shell.dart:4:8 - unused_import
+warning - Unused import: '../providers/theme_provider.dart' - lib\views\main_shell.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\views\main_shell.dart:14:9 - use_super_parameters
+   info - The imported package 'google_maps_flutter' isn't a dependency of the importing package - lib\views\map\property_map_view.dart:2:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:google_maps_flutter/google_maps_flutter.dart' - lib\views\map\property_map_view.dart:2:8 - uri_does_not_exist
+   info - Parameter 'key' could be a super parameter - lib\views\map\property_map_view.dart:13:9 - use_super_parameters
+  error - Undefined class 'GoogleMapController' - lib\views\map\property_map_view.dart:20:3 - undefined_class
+  error - The name 'Marker' isn't a type, so it can't be used as a type argument - lib\views\map\property_map_view.dart:21:7 - non_type_as_type_argument
+  error - Undefined class 'LatLng' - lib\views\map\property_map_view.dart:27:9 - undefined_class
+  error - The name 'LatLng' isn't a class - lib\views\map\property_map_view.dart:27:37 - creation_with_non_type
+  error - The method 'Marker' isn't defined for the type '_PropertyMapViewState' - lib\views\map\property_map_view.dart:87:14 - undefined_method
+  error - The method 'MarkerId' isn't defined for the type '_PropertyMapViewState' - lib\views\map\property_map_view.dart:88:19 - undefined_method
+  error - The method 'LatLng' isn't defined for the type '_PropertyMapViewState' - lib\views\map\property_map_view.dart:89:19 - undefined_method
+  error - The method 'InfoWindow' isn't defined for the type '_PropertyMapViewState' - lib\views\map\property_map_view.dart:90:21 - undefined_method
+  error - Undefined name 'BitmapDescriptor' - lib\views\map\property_map_view.dart:91:15 - undefined_identifier
+  error - Undefined name 'BitmapDescriptor' - lib\views\map\property_map_view.dart:91:53 - undefined_identifier
+  error - The method 'GoogleMap' isn't defined for the type '_PropertyMapViewState' - lib\views\map\property_map_view.dart:209:21 - undefined_method
+  error - The method 'CameraPosition' isn't defined for the type '_PropertyMapViewState' - lib\views\map\property_map_view.dart:210:46 - undefined_method
+  error - Undefined name 'CameraUpdate' - lib\views\map\property_map_view.dart:255:21 - undefined_identifier
+  error - The method 'CameraPosition' isn't defined for the type '_PropertyMapViewState' - lib\views\map\property_map_view.dart:256:23 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\map\property_map_view.dart:279:33 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\notifications\notifications_view.dart:6:9 - use_super_parameters
+   info - Unnecessary use of multiple underscores - lib\views\notifications\notifications_view.dart:73:31 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\onboarding_view.dart:32:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\onboarding_view.dart:38:39 - deprecated_member_use
+  error - The getter 'securePayments' isn't defined for the type 'AppLocalizations' - lib\views\onboarding_view.dart:47:18 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\onboarding_view.dart:181:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\onboarding_view.dart:189:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\onboarding_view.dart:217:37 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\payment\payment_success_view.dart:11:9 - use_super_parameters
+warning - The value of the local variable 'l10n' isn't used - lib\views\payment\payment_success_view.dart:42:11 - unused_local_variable
+   info - Parameter 'key' could be a super parameter - lib\views\payment\payment_view.dart:15:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\payment\payment_view.dart:174:82 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\payment\payment_view.dart:280:51 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\profile\edit_profile_view.dart:9:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\views\profile\owner_profile_view.dart:15:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\profile\owner_profile_view.dart:122:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\profile\owner_profile_view.dart:187:51 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\profile\profile_view.dart:10:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\views\property\add_property_view.dart:13:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\views\property\my_properties_view.dart:11:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\views\property_details_view.dart:16:9 - use_super_parameters
+   info - Unnecessary use of multiple underscores - lib\views\property_details_view.dart:122:43 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\views\property_details_view.dart:122:47 - unnecessary_underscores
+   info - Unnecessary use of string interpolation - lib\views\property_details_view.dart:249:31 - unnecessary_string_interpolations
+   info - Unnecessary use of multiple underscores - lib\views\property_details_view.dart:319:57 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\views\property_details_view.dart:319:61 - unnecessary_underscores
+   info - Parameter 'key' could be a super parameter - lib\views\search\search_view.dart:11:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\views\settings\settings_view.dart:10:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:192:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:192:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:229:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:241:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:241:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:259:54 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\views\settings\settings_view.dart:264:9 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:286:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:298:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:298:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:319:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:326:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:395:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\settings\settings_view.dart:419:64 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\views\settings\theme_settings_view.dart:8:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\views\splash_view.dart:9:9 - use_super_parameters
+   info - Unnecessary use of multiple underscores - lib\views\splash_view.dart:102:43 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\views\splash_view.dart:102:47 - unnecessary_underscores
+   info - The imported package 'webview_flutter' isn't a dependency of the importing package - lib\views\virtual_tour\virtual_tour_view.dart:3:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:webview_flutter/webview_flutter.dart' - lib\views\virtual_tour\virtual_tour_view.dart:3:8 - uri_does_not_exist
+   info - The imported package 'share_plus' isn't a dependency of the importing package - lib\views\virtual_tour\virtual_tour_view.dart:5:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:share_plus/share_plus.dart' - lib\views\virtual_tour\virtual_tour_view.dart:5:8 - uri_does_not_exist
+   info - Parameter 'key' could be a super parameter - lib\views\virtual_tour\virtual_tour_view.dart:13:9 - use_super_parameters
+  error - Undefined class 'WebViewController' - lib\views\virtual_tour\virtual_tour_view.dart:24:8 - undefined_class
+  error - The method 'WebViewController' isn't defined for the type '_VirtualTourViewState' - lib\views\virtual_tour\virtual_tour_view.dart:35:19 - undefined_method
+  error - Undefined name 'JavaScriptMode' - lib\views\virtual_tour\virtual_tour_view.dart:36:27 - undefined_identifier
+  error - The method 'NavigationDelegate' isn't defined for the type '_VirtualTourViewState' - lib\views\virtual_tour\virtual_tour_view.dart:38:9 - undefined_method
+  error - Undefined name 'Share' - lib\views\virtual_tour\virtual_tour_view.dart:69:5 - undefined_identifier
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\virtual_tour\virtual_tour_view.dart:94:30 - deprecated_member_use
+  error - The method 'WebViewWidget' isn't defined for the type '_VirtualTourViewState' - lib\views\virtual_tour\virtual_tour_view.dart:104:11 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\views\virtual_tour\virtual_tour_view.dart:173:29 - deprecated_member_use
+   info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\widgets\ai_recommendation_card.dart:2:8 - unnecessary_import
+warning - Unused import: '../models/property_model.dart' - lib\widgets\ai_recommendation_card.dart:4:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\widgets\ai_recommendation_card.dart:12:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\ai_recommendation_card.dart:64:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\ai_recommendation_card.dart:180:73 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\property_card.dart:11:9 - use_super_parameters
+   info - Unnecessary use of multiple underscores - lib\widgets\property_card.dart:52:47 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\widgets\property_card.dart:52:51 - unnecessary_underscores
+   info - Parameter 'key' could be a super parameter - lib\widgets\rating_bar_widget.dart:9:9 - use_super_parameters
+   info - Parameter 'key' could be a super parameter - lib\widgets\riyal_icon.dart:7:9 - use_super_parameters
+

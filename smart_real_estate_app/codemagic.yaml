@@ -1,0 +1,21 @@
+workflows:
+  ios-workflow:
+    name: iOS Build
+    max_build_duration: 120
+    environment:
+      flutter: default
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
+        script: |
+          keychain initialize
+      - name: Fetch Flutter packages
+        script: |
+          flutter packages pub get
+      - name: Build iOS unsigned
+        script: |
+          flutter build ios --release --no-codesign
+    artifacts:
+      - build/ios/iphoneos/*.app
+      - build/ios/iphoneos/*.ipa
